@@ -1,8 +1,8 @@
-def test(a, b):
-    print(a, b)
+def test(*param, **parampampam):
+    print(param, parampampam)
 
 
-test(3, 2)
+test('Пицца',Пепперони=750, Мясная=800)
 
 
 def factorial_recursive(n):
